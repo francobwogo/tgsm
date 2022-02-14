@@ -14,6 +14,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -46,18 +47,16 @@ Users should be able to:
 CSS Grid Layout: 
 
 ```css
-
-.span-column {
-    grid-column: 1 / span 2;
+@media (min-width: 1200px) {
+  main {
+    max-width: 1440px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "grid-area1 grid-area1 grid-area2 grid-area3"
+      "grid-area4 grid-area5 grid-area5 grid-area3"
+    ;
+  }
 }
-
-.order-2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
- }
-
 ```
 
 ### Continued development
@@ -71,3 +70,6 @@ CSS Grid Layout
 ## Author
 
 - Frontend Mentor - [@francobwogo](https://www.frontendmentor.io/profile/francobwogo)
+
+## Acknowledgments
+- Brendan Hyde - [@hyde-brendan](https://www.frontendmentor.io/profile/hyde-brendan)
