@@ -21,9 +21,6 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: auto;
   width: 100%;
   height: 100vh;
@@ -150,6 +147,12 @@ img {
 }
 
 @media (min-width: 650px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .order-1 {
     grid-area: grid-area1;
   }
@@ -177,8 +180,7 @@ img {
       "grid-area1 grid-area1"
       "grid-area2 grid-area4"
       "grid-area3 grid-area3"
-      "grid-area5 grid-area5"
-    ;
+      "grid-area5 grid-area5";
     margin: auto;
     padding: 8em;
   }
@@ -190,8 +192,7 @@ img {
     grid-template-areas:
       "grid-area1 grid-area1 grid-area1"
       "grid-area2 grid-area5 grid-area3"
-      "grid-area4 grid-area5 grid-area3"
-    ;
+      "grid-area4 grid-area5 grid-area3";
   }
 }
 
@@ -201,7 +202,6 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "grid-area1 grid-area1 grid-area2 grid-area3"
-      "grid-area4 grid-area5 grid-area5 grid-area3"
-    ;
+      "grid-area4 grid-area5 grid-area5 grid-area3";
   }
 }
