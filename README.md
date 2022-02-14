@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/francobwogo/tgsm.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://francobwogo.github.io/tgsm/)
 
 ## My process
 
